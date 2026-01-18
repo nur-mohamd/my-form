@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Person Information</title>
+</head>
+<body>
+  
+  <form action="https://formspree.io/f/mzdddolp"  method="POST">
+
+    <div>
+    <label for="firstname">First Name: </label>
+    <input type="text" id="firstname" name="firstname" placeholder="Enter the first name" required/>
+    </div>
+    <br>
+
+    <div>
+    <label for="lastname">Last Name: </label>
+    <input type="text" id="lastname" name="lastname" placeholder="Enter the last name" required />
+    </div>
+    <br>
+
+   <div>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" placeholder="Enter the username"/>
+   </div>
+   <br>
+
+   <div>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" placeholder="Enter the password"/>
+  </div>
+  <br>
+
+   <div>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter the Email"/>
+   </div>
+   <br>
+
+  <div>
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="1" max="100" />
+  </div>
+  <br>
+   
+  <div>
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob" />
+  </div>
+  <br>
+   
+  <div>
+  <label for="religion">Religion:</label>
+  <input type="checkbox" id="islam" name="religion" value="islam"/> Islam
+  <input type="checkbox" id="hindu" name="religion" value="hindu"/> Hindu
+  </div>
+  <br>
+
+  <div>
+  <label for="photo">Photos:</label>
+  <input type="file" id="photo" name="photo"/>
+  </div>
+  <br>
+  
+  <div>
+  <label for="message">Message:</label> <br>
+  <textarea name="message" rows="10" cols="20" placeholder="Enter your message"></textarea>
+  </div>
+  <br>
+
+  <div>
+  <label for="country">Your country name:</label> 
+  <select name="country">
+  <option value="us">United States</option>
+  <option value="ca">Canada</option>
+  <option value="uk"selected>United Kingdom</option>
+  <option value="ban">Bangladesh</option>
+ </select>
+  </div>
+  <br>
+
+  <div>
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="male" />
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female" />
+  <label for="female">Female</label>
+  </div>
+  <br>
+
+  <div>
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+  </div>
+  <br>
+</form>
+</body>
+</html>
